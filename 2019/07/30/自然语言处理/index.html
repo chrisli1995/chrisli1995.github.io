@@ -79,13 +79,165 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="自然语言处理学习NLP，我建议第一步学language model，然后依次学POS tagging， 语法分析PCFG，接着接触NLP的第一个实际应用，学习机器翻译（机器翻译真是融合了各种NLP知识到里面），先从基于统计的机器翻译开始学，IBM model1， IBM model 2，再到phrase based machine translation，然后再学log linear model。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="自然语言处理">
+<meta property="og:url" content="http://yoursite.com/2019/07/30/自然语言处理/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="自然语言处理学习NLP，我建议第一步学language model，然后依次学POS tagging， 语法分析PCFG，接着接触NLP的第一个实际应用，学习机器翻译（机器翻译真是融合了各种NLP知识到里面），先从基于统计的机器翻译开始学，IBM model1， IBM model 2，再到phrase based machine translation，然后再学log linear model。">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-862dba947e56e164.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-62de04bb5de834d9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-867aff1222b8b457.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-315dbc673bade36c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-408f8938caf4e739.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-36122d4c00c61483.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-0dce5221619b3851.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-b8936bf6efbf8792.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-aa6cfa3729a6c71a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-8108855b103c4d5c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-cb497517b5c643d2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-20b4a15a090d51f9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-0abdb25b6c4a1ff2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-4de148edf5092229.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-220e7ab9ffcb49ea.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-7691dc2e688cf8fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-86ee256951e73f70.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-986500fc37212305.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-9e18ed70d897b458.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-ad9fdd54013bfe19.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-20535b1e9839552c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-f411d818dee8c1e9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-9e9d89d55e1a2468.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-9e04af9049a7339f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-59f080efb8941307.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-8a636412f181adde.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-4c719e4355330c05.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-c73b3ebb405ef75e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-7629d53fadea2cf9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-36566c5a9b356a06.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-5d1e9fa97c838bad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-b7f48b4561148e9f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-321bcf2645d92e6b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-c77cd2c7a54edd82.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-f384c5d1d372d349.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-974bbcac5b4f75c6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-454db205c3396495.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-fdb61ef7bc789efa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-0b27b582c6d5c8fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-4d08e9075b3732d0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-3057b866fd089c44.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-adff4456dacfba45.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-87381449623fc189.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-b175a4bdeb0cfafb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-ff0cfaee2c44333b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-22f6886741bcfc21.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-dbe930159c462669.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-13ee3b4df56e6ab4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-581f2af68988949d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-ba29ff3d2f56df13.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-761a1d576de2d043.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-a10b025598ab1d1f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-6e67d830fbdbde3e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-1480f5fa37406c95.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-cd80e7207830303a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-f9317170b6082c8d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-310a24b462451eca.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-6b82aa3cf70854f8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-a65a5fa8f12b5de8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-fdd8b4453a6cbb5c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-e0028ea5fb0ba659.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-2160e67a13ed7be1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-989f0a5ffe0eafa3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-0dec8feb4b78c671.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-2d020353324a93a9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-9756492f3484d194.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-64e397d210f1725d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-fdae575a5633486f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-621fed8e5f719c07.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-696e19fa8a02b3b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-925ccb6ee02082e9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-f1c4fd2af30e633c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-a068f85e85717eb2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-b205d7c529ec4694.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-0fe4e29d90393ef1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-fa77930b60b7f1ce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-672f35de3b2b32f5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-4a5cf66d447edf0d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-97f5d481b74c0d0e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-b361e006c19b41ba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-49842c7b26f4f5ce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-de1ef46e5266f29b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-03251ccbb8b63fd2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-1a5f240c8730b33d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-f8acc731d4af2852.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-d1ec80277b372e2d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-63ddf60bb985f7e6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-fa7933b299ebd0ef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-60e2f6f221598447.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-fa077fe44b5159d8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-cd03784d9fbc3650.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-8b64b175b34c69f0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-02357a7062c09435.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-d6ec7ea72734c598.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-50611bc9814e199a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-1bfecccd312a21ec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-18e608065e225484.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-dadd26b9bedd7758.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-28940958299cc59a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-67292357ab883a63.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-aaeb1b831c29fed1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-08ccc46309694f24.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-ef5b73e208b68e35.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-9869f262ee3646d0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-a76df7c529aa6eed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-fd40675aa416753b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-c812c692ddc1e2fa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-8e6dc11c54a7d6fd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-f14c5efd40fec96c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-14204a60b02a0032.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-4f79faa09119c19e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-c28bf3172ab9f87b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-64809c1c76264b69.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-e2f43be68a2477db.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-67c8bff4ef175206.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-35775a7b5f26508d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-9a483551e02c38ac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-d5eb29cb45f8a76a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-a10c2b7421463014.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-de050c5b8577bbcc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-1c5fdd5b81af203a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-55bddd66bf355874.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-c0a40c8d89d37071.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-b2c11060cdc3458a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-253a37bc71b7ec85.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-b825e0245ecdab83.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-d77b5ae372bbce63.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-ddb7961ea6fc0cab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-e2d45c44adc3ac96.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-50b47f8c99db8102.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-9e3baaa6cabaffd4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-5c8136470d403198.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-84498dbd47e8e14d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-0b4bbd92d12b5ac6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-503e4ef87d7ebceb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-51050424fb96fb2a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-43748b6e73fafd42.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-aee33d4f895454c5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-b6e24a481f510814.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-a5608cf3b67e22f8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-fd314e32f8b94ccb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-795b088ad533bbd7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-3a21ae8a9bb34415.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-c8a9fc21b10096de.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-cecae5a2a8bf3a7f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/7810235-cc354a2edd704014.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="c:%5CUsers%5C59845%5CAppData%5CLocal%5CTemp%5C1562901010525.png">
+<meta property="og:updated_time" content="2019-07-30T09:29:31.315Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="自然语言处理">
+<meta name="twitter:description" content="自然语言处理学习NLP，我建议第一步学language model，然后依次学POS tagging， 语法分析PCFG，接着接触NLP的第一个实际应用，学习机器翻译（机器翻译真是融合了各种NLP知识到里面），先从基于统计的机器翻译开始学，IBM model1， IBM model 2，再到phrase based machine translation，然后再学log linear model。">
+<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/7810235-862dba947e56e164.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
 
 
@@ -115,13 +267,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2019/07/30/自然语言处理/">
 
 
 
 
 
-  <title>Hexo</title>
+  <title>自然语言处理 | Hexo</title>
   
 
 
@@ -140,8 +292,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -214,9 +365,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -246,9 +397,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/07/30/自然语言处理/" itemprop="url">自然语言处理</a></h1>
+          <h1 class="post-title" itemprop="name headline">自然语言处理</h1>
         
 
         <div class="post-meta">
@@ -298,9 +447,7 @@
       
 
       
-        
-          
-            <h1 id="自然语言处理"><a href="#自然语言处理" class="headerlink" title="自然语言处理"></a>自然语言处理</h1><p>学习NLP，我建议第一步学language model，<br>然后依次学POS tagging， 语法分析PCFG，<br>接着接触NLP的第一个实际应用，学习机器翻译（机器翻译真是融合了各种NLP知识到里面），<br>先从基于统计的机器翻译开始学，IBM model1， IBM model 2，再到phrase based machine translation，然后再学log linear model。<br>再往后就可以学习各种应用啦，情感分析，文本分类等，这个可以上斯坦福的那门NLP课程，也是非常棒的课程。（摘自知乎）</p>
+        <h1 id="自然语言处理"><a href="#自然语言处理" class="headerlink" title="自然语言处理"></a>自然语言处理</h1><p>学习NLP，我建议第一步学language model，<br>然后依次学POS tagging， 语法分析PCFG，<br>接着接触NLP的第一个实际应用，学习机器翻译（机器翻译真是融合了各种NLP知识到里面），<br>先从基于统计的机器翻译开始学，IBM model1， IBM model 2，再到phrase based machine translation，然后再学log linear model。<br>再往后就可以学习各种应用啦，情感分析，文本分类等，这个可以上斯坦福的那门NLP课程，也是非常棒的课程。（摘自知乎）</p>
 <p>笔记中包含了NLP的学习以及所设计到语义关系的一些技术，比如社交网络等。<strong>默认有一定的基础</strong></p>
 <p>视频连接或百度云：</p>
 <p>链接：<a href="https://pan.baidu.com/s/1sCUtrTNDwLVI7nwGvsMu3Q" target="_blank" rel="noopener">https://pan.baidu.com/s/1sCUtrTNDwLVI7nwGvsMu3Q</a> 密码：jxso（主讲RNN和seq2seq）</p>
@@ -673,8 +820,6 @@
 <p><img src="C:%5CUsers%5C59845%5CAppData%5CLocal%5CTemp%5C1562901010525.png" alt="1562901010525"></p>
 <p>目前谷歌开放的模型有如上几个，前四个都是关于英文的，BERT-large-ml-cased是关于多国语言的，特别注意的是最后一个还有专门中文模型。uncased是考虑到英文的大小写情况，cased是全部转为小写。</p>
 
-          
-        
       
     </div>
     
@@ -691,131 +836,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/30/test-my-site/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/07/30/test-my-site/" itemprop="url">test_my_site</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-07-30T15:47:33+08:00">
-                2019-07-30
-              </time>
+              <a href="/2019/07/30/test-my-site/" rel="next" title="test_my_site">
+                <i class="fa fa-chevron-left"></i> test_my_site
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -825,142 +867,11 @@
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/30/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/07/30/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-07-30T15:30:36+08:00">
-                2019-07-30
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -968,6 +879,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -988,8 +903,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -1031,6 +955,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#自然语言处理"><span class="nav-number">1.</span> <span class="nav-text">自然语言处理</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#0-工具"><span class="nav-number">1.1.</span> <span class="nav-text">0 工具</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#0-1-语义角色标注"><span class="nav-number">1.1.1.</span> <span class="nav-text">0.1 语义角色标注</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#0-2-依存句法分析"><span class="nav-number">1.1.2.</span> <span class="nav-text">0.2 依存句法分析</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-概论"><span class="nav-number">1.2.</span> <span class="nav-text">1 概论</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-什么是自然语言处理（NLP）"><span class="nav-number">1.2.1.</span> <span class="nav-text">1.1 什么是自然语言处理（NLP）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-常见应用"><span class="nav-number">1.2.2.</span> <span class="nav-text">1.2 常见应用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-3-挑战"><span class="nav-number">1.2.3.</span> <span class="nav-text">1.3 挑战</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-语言模型"><span class="nav-number">1.3.</span> <span class="nav-text">2 语言模型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-N-gram模型"><span class="nav-number">1.3.1.</span> <span class="nav-text">2.1 N-gram模型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-语言模型的评价标准"><span class="nav-number">1.3.2.</span> <span class="nav-text">2.2 语言模型的评价标准</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-N-gram模型遇到的难点"><span class="nav-number">1.3.3.</span> <span class="nav-text">2.3 N-gram模型遇到的难点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-4-代码实现"><span class="nav-number">1.3.4.</span> <span class="nav-text">2.4 代码实现</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-word2vec原理（待补充）"><span class="nav-number">1.4.</span> <span class="nav-text">3 word2vec原理（待补充）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-为什么是word2vec？"><span class="nav-number">1.4.1.</span> <span class="nav-text">3.1 为什么是word2vec？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-基本知识"><span class="nav-number">1.4.2.</span> <span class="nav-text">3.2 基本知识</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2-1-哈夫曼树"><span class="nav-number">1.4.2.1.</span> <span class="nav-text">3.2.1 哈夫曼树</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-2-2-逻辑回归"><span class="nav-number">1.4.2.2.</span> <span class="nav-text">3.2.2 逻辑回归</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-3-CBOW和skip-gram"><span class="nav-number">1.4.3.</span> <span class="nav-text">3.3 CBOW和skip-gram</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-图论"><span class="nav-number">1.5.</span> <span class="nav-text">4 图论</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#4-1-社会网络（待补充）"><span class="nav-number">1.5.1.</span> <span class="nav-text">4.1 社会网络（待补充）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#4-1-1-基本概念"><span class="nav-number">1.5.1.1.</span> <span class="nav-text">4.1.1 基本概念</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-2-2-影响力扩散问题"><span class="nav-number">1.5.1.2.</span> <span class="nav-text">4.2.2 影响力扩散问题</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-神经序列模型"><span class="nav-number">1.6.</span> <span class="nav-text">5 神经序列模型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-1-神经网路基础"><span class="nav-number">1.6.1.</span> <span class="nav-text">5.1 神经网路基础</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-2-RNN理论"><span class="nav-number">1.6.2.</span> <span class="nav-text">5.2 RNN理论</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-3-梯度爆炸和梯度消失的解决方式"><span class="nav-number">1.6.3.</span> <span class="nav-text">5.3 梯度爆炸和梯度消失的解决方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-4-LSTM"><span class="nav-number">1.6.4.</span> <span class="nav-text">5.4 LSTM</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-4-RNN命令与代码"><span class="nav-number">1.6.5.</span> <span class="nav-text">5.4 RNN命令与代码</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#5-4-1-Linux命令"><span class="nav-number">1.6.5.1.</span> <span class="nav-text">5.4.1 Linux命令</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-4-2-代码"><span class="nav-number">1.6.5.2.</span> <span class="nav-text">5.4.2 代码</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-5-seq2seq"><span class="nav-number">1.6.6.</span> <span class="nav-text">5.5 seq2seq</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#5-5-1-基本概念"><span class="nav-number">1.6.6.1.</span> <span class="nav-text">5.5.1 基本概念</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-5-2-Beam-Search"><span class="nav-number">1.6.6.2.</span> <span class="nav-text">5.5.2 Beam Search</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-5-3-Attention"><span class="nav-number">1.6.6.3.</span> <span class="nav-text">5.5.3 Attention</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-FSM"><span class="nav-number">1.7.</span> <span class="nav-text">6 FSM</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#6-1-Finite-State-Acceptor"><span class="nav-number">1.7.1.</span> <span class="nav-text">6.1 Finite State Acceptor</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-2-Finite-State-Transducer"><span class="nav-number">1.7.2.</span> <span class="nav-text">6.2 Finite State Transducer</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-3-Noisy-Channel-Model"><span class="nav-number">1.7.3.</span> <span class="nav-text">6.3 Noisy Channel Model</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-4-EM算法"><span class="nav-number">1.7.4.</span> <span class="nav-text">6.4 EM算法</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-CRF"><span class="nav-number">1.8.</span> <span class="nav-text">7 CRF</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#7-1-一些NLP的应用"><span class="nav-number">1.8.1.</span> <span class="nav-text">7.1 一些NLP的应用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-2-CRF理论"><span class="nav-number">1.8.2.</span> <span class="nav-text">7.2 CRF理论</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-句法分析（待补充）"><span class="nav-number">1.9.</span> <span class="nav-text">8 句法分析（待补充）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#8-1-转换生成语法"><span class="nav-number">1.9.1.</span> <span class="nav-text">8.1 转换生成语法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#8-1-1-上下文无关文法"><span class="nav-number">1.9.1.1.</span> <span class="nav-text">8.1.1 上下文无关文法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#8-1-2-汉语句类"><span class="nav-number">1.9.1.2.</span> <span class="nav-text">8.1.2 汉语句类</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#9-预训练模型"><span class="nav-number">1.10.</span> <span class="nav-text">9 预训练模型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#9-1-BERT"><span class="nav-number">1.10.1.</span> <span class="nav-text">9.1 BERT</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#9-1-1-Transformer"><span class="nav-number">1.10.1.1.</span> <span class="nav-text">9.1.1 Transformer</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#9-1-2-BERT基本原理"><span class="nav-number">1.10.1.2.</span> <span class="nav-text">9.1.2 BERT基本原理</span></a></li></ol></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1171,6 +1111,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
